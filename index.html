@@ -248,8 +248,7 @@
     </div>
     
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src='//libtl.com/sdk.js' data-zone='9712189' data-sdk='show_9712189'></script>
-    
+    <script src='//libtl.com/sdk.js' data-zone='9836411' data-sdk='show_9836411'></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const tg = window.Telegram.WebApp;
@@ -371,7 +370,7 @@
                     tg.showAlert("You have reached your daily ad watch limit."); return;
                 }
                 loadingModal.style.display = 'flex';
-                show_9712189().then(() => {
+                show_3030965().then(() => {
                     userState.points += POINTS_PER_AD;
                     userState.dailyAdWatchCount++;
                     saveState();
